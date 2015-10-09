@@ -1,0 +1,51 @@
+Hey, you!
+
+Do you like to watch Youtube videos and listen to cool music on Soundcloud?
+
+But you don't like Javascript or dozens of tracking cookies being loaded into your pristine browser? Do you want to be able to save these videos for later and watch them any time you want?
+
+Well, I have the perfect solution for you!
+
+When you want to open a Youtube or Soundcloud link and not want to have to stream the data through your browser, why not just download it?
+
+That's right. It's actually a lot nicer if you actually own the content of the video or song on your hard drive! That way you can play it back later even when you may not have an internet connection.
+
+Example: Being on an airplane or in the middle of a hurricane
+
+An awesome dude named Ricardo Garcia has created a unique tool that can scrape the content off of Youtube and other sites (including Soundcloud) so you can accomplish this task with ease.
+
+Simply install his tool which you can find here: https://rg3.github.io/youtube-dl/
+
+I highly recommend using his tool in conjunction with ffmpeg if you want to download the highest quality Youtube videos to your computer.
+
+Youtube-dl runs on Python so it will work on every operating system that can run Python.
+
+If you have a Mac like me and use homebrew:
+
+$ brew update && brew install youtube-dl
+
+If you have pip (an essential tool for any Python programmers), you can also just do:
+
+$ sudo pip install youtube-dl
+
+You can also just use curl or wget to download the binary.
+
+For more information on installation, check out https://github.com/rg3/youtube-dl/blob/master/README.md
+
+Now, if you want to download a Youtube video with the absolute best audio and video, you should have ffmpeg installed!
+
+For best quality Youtube videos type:
+
+$ youtube-dl -f bestvideo+bestaudio "https://youtu.be/tJnWo5Jx7W8"
+
+the -f option is for ffmpeg and it will merge the formats together into the final product
+
+If you only want audio, just do:
+
+$ youtube-dl -f bestaudio "https://youtu.be/IFJGmmPx8Rw"
+
+If you want audio from soundcloud:
+
+$ youtube-dl "https://m.soundcloud.com/kuraitsuka/killing-me-within"
+
+It's pretty simple. Have any questions? Just refer to the official youtube-dl documentation.
