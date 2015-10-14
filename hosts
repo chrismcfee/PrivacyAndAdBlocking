@@ -29330,4 +29330,248 @@
 0.0.0.0 ad.mirror.co.uk
 0.0.0.0 host3.adhese.be
 0.0.0.0 mcmads.mediacapital.pt
-##End code block
+
+# Untrusted Hosts Blocker:                                 #
+# Say goodbye to ads, spies, tracking and untrusted hosts. #
+#                                                          #
+# *********************************************************#
+# --------------- Updated: February-26-2012 ---------------#
+# *********************************************************#
+#                                                          #
+# Thanks winhelp2002 & 0th3lo for their work. I also added #
+# some hosts from my personnal iOS and MacOS experience.   #
+#                                                          #
+# http://blog.thireus.com                                  #
+# http://repo.thireus.com                                  #
+# © 2012 Thireus Repository. All Rights Reserved.          #
+ 
+## This is a small part of blacklisted hosts (+16,000) from 'Untrusted Hosts Blocker':
+ 
+## http://i-phone-home.blogspot.com/ ##
+## Feel free to distribute, with this header intact ##
+## Version 0.60.5, updated 08/10/09 by 0th3lo ##
+ 
+## Generic iPhone/Application entries
+# Google analytics
+# Used by: iBeer, Jaadu RDP, MxTube
+127.0.0.1       www.google-analytics.com
+ 
+# iTunes & AppStore Application - makes 14 requests, 2 related to usage tracking
+# Used by: Apple AppStore, Apple iTunes
+127.0.0.1       metrics.apple.com
+ 
+# +Plus Network - Community/social network for iPhone games, sends listing of games & information to servers
+# Used by:
+127.0.0.1       app.plusplus.com
+ 
+## Generic Mobile advertising providers
+# Used by: iFarty, psx4iphone, TwitterFon, Wobble, Dude, iAppUSA & Cydia Apps, Flash for Free, Paper Toss, Chess Free, Crack the Code, Flood-It!
+# Used by:  Would You Ever?, Finger Security Lite, BossPaper, Flick Cricket
+127.0.0.1       a.admob.com
+127.0.0.1       r.admob.com
+127.0.0.1       ads.mobclix.com
+127.0.0.1       a.mobclix.com
+127.0.0.1       s.mobclix.com
+127.0.0.1       data.mobclix.com
+127.0.0.1       ad.qwapi.com
+127.0.0.1       img.qwapi.com
+127.0.0.1       event-img.qwapi.com
+127.0.0.1       www.adwhirl.com
+127.0.0.1       met.adwhirl.com
+127.0.0.1       mob.adwhirl.com
+127.0.0.1       ads2.greystripe.com
+127.0.0.1       d7.zedo.com
+127.0.0.1       d13.zedo.com
+127.0.0.1       fg.zedo.com
+127.0.0.1       tags.expo9.exponential.com
+127.0.0.1       simg.zedo.com
+127.0.0.1       a.tribalfusion.com
+127.0.0.1       cdn5.tribalfusion.com
+127.0.0.1       googleads.g.doubleclick.net
+127.0.0.1       pagead2.googlesyndication.com
+127.0.0.1       wobble.s3.amazonaws.com
+ 
+## Multiple application entries ##
+ 
+# Pinchmedia analytics
+# Commonly Tracks: iPhone's unique ID, iPhone Model, OS Version, App version, Cracked & jail-break status, date/time of app start & shutdown
+# May Track: your current latitude & longitude
+# Can Track: your gender, birth month, birth year (if Facebook enabled)
+# Used by: AroundMe, Aussie Rules LIVE, Camera Zoom, Discover, Flick Fishing, iiQuota, Mummy's Revenge, Police Scanner, Stickwars
+# Used by: The Moron Test, TouchGrind, Touch KO, TwiterFon, FaceFighter, Grunts, SmackTalk, Postman, vDrummer, Wobble, iFarty, iAppUSA
+# Used by: Lonely Planet guide, Oz Weather, Slingshot Cowboy, Flash for Free
+127.0.0.1       beacon.pinchmedia.com
+ 
+# Flurry analytics
+# Commonly Tracks: iPhone's unique ID, iPhone Model, OS Version, App version
+# Used by: California Gold Rush, Paper Toss: World Tour, Ragdoll Blast, Stand O Food, Tower Bloxx 3D, MouthOff, Myst, Nintaii, Dead Panic
+# Used by: 20Q Mind Reader, eBuddy, Chess Free, Crack the Code, Tower Bloxx FREE, What's Your IQ?, Jurassic Rollercoaster, Max Injury
+127.0.0.1       data.flurry.com
+ 
+# GameLoft
+# Commonly Tracks:  iPhone's unique ID, iPhone Model, OS Version, App version
+# Used by: Assassins Creed, Guitar Rock Tour 2, Hero of Sparta, Let's Golf!, NFL2010, Brothers In Arms, Lost Empires, Gangstar, Modern Combat: Sandstorm
+127.0.0.1       confirmation.gameloft.com
+127.0.0.1       ingameads.gameloft.com
+127.0.0.1       igpiphone.gameloft.com
+ 
+# ngmoco
+# Commonly Tracks:  iPhone's unique ID, iPhone Model, OS Version, App version, Luxor has a Killswitch
+# Used by: Rolando 2, StarDefense, Luxor, UNO
+127.0.0.1       apps.ngmoco.com
+127.0.0.1       config.ngmoco.com
+127.0.0.1       wordpress.ngmoco.com
+127.0.0.1       assets.ngmoco.com
+ 
+# Storm8 applications
+# Commonly Tracks: Steals mobile phone number!!, app id, udid, iphone model, firmware - Danger!
+# Used by: iMobsters, Kingdoms Live, Racing Live, Rockstars Live, Vampires Live, World War, Zombies Live
+127.0.0.1       storm8.com
+127.0.0.1       vl.storm8.com
+127.0.0.1       wwar.storm8.com
+127.0.0.1       rl.storm8.com
+127.0.0.1       kl.storm8.com
+127.0.0.1       zl.storm8.com
+127.0.0.1       rol.storm8.com
+127.0.0.1       static.storm8.com
+ 
+## Individual application entries ##
+ 
+# Camera Zoom - pinchmedia enabled, contacts a 3rd party, phones-home, sends unique identifiable information including your geographic location
+127.0.0.1       itunes.kenditech.com
+127.0.0.1       www.kenditech.com
+ 
+# ColorSplash - retrieves news/alerts from home server, otherwise behaves
+127.0.0.1       www.juxtaposer.info
+ 
+# Dead Panic - sends iPhone udid, model, version, application name & version
+127.0.0.1       smasher.com
+ 
+# Deer Hunter 3D Free - Sends UDID, App version, info, start & stop times to home server
+127.0.0.1       swervenet.glu
+ 
+# Dexter - does a random "version check" sends a large mystery hash
+127.0.0.1       www.icarusstudios.com
+ 
+# Dirt Moto Racing - App ID, version info, iPhone UDID, phones-home, in-house+3rd party ad based tracker
+127.0.0.1       ads2.greystripe.com
+127.0.0.1       services.resolution.se
+ 
+# Discover - pinchmedia enabled, 9 requests on start, adverts, multiple-phone home requests, sends iPhone UDID, model, version, application version, time started & stopped
+127.0.0.1       videoegg.adbureau.net
+127.0.0.1       videoegg-images.adbureau.net
+127.0.0.1       connect.purpletalk.com
+ 
+# Doodle Jump - 1 request @ start, repeats requests every level, phones-home & some basic usage tracking
+127.0.0.1       www.limasky.com
+ 
+# Doodle Buddy - App ID, version info, iPhone UDID, phones-home, in-house metrics & advertising
+127.0.0.1       ads.pinger.com
+127.0.0.1       m.pinger.com
+127.0.0.1       www.karpediem.com
+ 
+# DrawRace - on-line scoring, including unique id, e-mail, latitude & longitude info to home server
+127.0.0.1       touchrally.appspot.com
+ 
+# eBuddy - sends app id, UDID, iPhone model & ver to 3rd party + all your account info in plain text! - not blocked by PrivaCy
+127.0.0.1       i-connector.ebuddy.com
+ 
+# F.A.S.T - phones-home 3 to 4 times, checks if app is pirated, sends unique ids, tracks usage
+127.0.0.1       ijet.iphone.sgn.com
+127.0.0.1       bar.iphone.sgn.com
+ 
+# Facebook - makes many "unusual calls" tested okay with this entry
+127.0.0.1       0.channel15.facebook.com
+ 
+# Fantastic Contraption - sends iPhone udid, version
+127.0.0.1       www.shapeshape.net
+ 
+# Flash for Free - pinchmedia enabled, loads mobile ads, may connect to url trackers
+127.0.0.1       freetheapps.com
+127.0.0.1       budurl.com
+ 
+# Flick Fishing - pinchmedia enabled, phones home, connects to apple, sends apple information, sends unique ids, tracks usage
+127.0.0.1       www.freeverse.com
+ 
+# geoDefense Swarm - phones-home, tracks UDID, iPhone model & app info, openfeint enabled
+127.0.0.1       criticalthoughtgames.com
+ 
+# Hysteria Project - downloads RSS feed from server,
+127.0.0.1       www.bulkypix.com
+ 
+# I Am T-Pain - multiple external requests, phones-home, sends UDID, loads data from apple?
+127.0.0.1       tpain.smule.com
+ 
+# iBeer Updated - 2 requests, phones-home & tracks usage
+127.0.0.1       www.hottrixdownload.com
+ 
+# iBlogger - sends identifiable data to a 3rd party, blog edits work as normal
+127.0.0.1       t.medialytics.com
+ 
+# iFarty - ads, mutiple data leaks, iphone ID, os, firmware, crack & jailbreak info
+127.0.0.1       widgets.amung.us
+127.0.0.1       whos.amung.us
+127.0.0.1       wau.tynt.com
+ 
+# Jaadu RDP - makes 8 requests, phones home, tracks usage, checks for new version
+127.0.0.1       www.jugaari.com
+127.0.0.1       www.statcounter.com
+127.0.0.1       c.statcounter.com
+ 
+# Jurassic Rollercoaster - App ID, version info, iPhone UDID + info & start, stop & level info
+127.0.0.1       icrm.digitalchocolate.com
+ 
+# MobilityWave Applications - Blackjack, Word Wrap, Hangman, Video Poker, Lists, Poker, TouchTrain +above generic ad's
+127.0.0.1       www.mobilityware.com
+127.0.0.1       data.mobclix.com
+ 
+# MX Tube - makes 8 HTTP requests, ad servers & Google analytics
+127.0.0.1       mxtube.iphone.mxweas.com
+127.0.0.1       img1.iphone.mxweas.com
+ 
+# NoiseBlaster & Photogene, loads web content from home server
+127.0.0.1       web.me.com
+ 
+# Pocket God - Sends unique identifiers/application information to 3rd party servers on app start & in-game
+127.0.0.1       api.openfeint.com
+ 
+# PSx4iphone - makes 18 HTTP Requests, then continues to request periodically
+127.0.0.1       www.zodttd.com
+ 
+# QuickOffice - "Pings" the server every start-up, sends version & tracking info
+127.0.0.1       www.quickoffice.com
+ 
+# Police Scanner - pinchmedia enabled, multiple, serious data leaks, sends ID's, pirated/jailbreak info and lat & long to multiple 3rd parties
+127.0.0.1       data.ps.juicydevelopment.com
+127.0.0.1       data.talkradiofinder.com
+ 
+# Sheep Launcher - Phones-home on start, seems safe, doesn't send UDID.
+127.0.0.1       kronosgo.com
+127.0.0.1       www.kronosgo.com
+ 
+# Spider: Secret,Bryce Manor - sends app id, UDID, iPhone model & heaps of info to home server
+127.0.0.1       www.tigerstylegames.com
+ 
+# TouchGrind - pinchmedia enabled, Advertising, phones-home, sends your iPhone UDID, model, O/S, app name & version, start and stop times as well as if you have jail-broken your iPhone and if the application is pirated
+127.0.0.1       adtgr1.ilabs.nu
+ 
+# Touch KO - pinchmedia enabled, sends data to multiple 3rd parties, iPhone UDID, model, version, application version, time started & stopped, jailbreak & pirate status
+127.0.0.1       blurst.com
+ 
+# Tower Bloxx FREE - sends iPhone ID, model, firmware to mutiple 3rd parties
+127.0.0.1       icrm.digitalchocolate.com
+127.0.0.1       push.digitalchocolate.com
+127.0.0.1       www.digitalchocolate.com
+ 
+# TwiterFon - pinchmedia enabled, loads lots of ad's, sends wads of identifiable data about you/your iPhone to MANY 3rd parties
+127.0.0.1       adbatch.qwapi.com
+ 
+# Waterslide Extreme - UDID, iPhone ver, firmware, lang, connection, start & stop, stage
+127.0.0.1       tracker.fishlabs.net
+ 
+# What's Your IQ? - up to 19 network requests, app id, verison, udid, assests & flurry
+127.0.0.1       www.clickspan.com
+127.0.0.1       www.trippertlabs.com
+ 
+# WifiTrak - loads ad's from home server, otherwise works well
+127.0.0.1       www.bitrino.com
