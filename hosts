@@ -1,4 +1,6 @@
 127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1             localhost
 #host file must start with "127.0.0.1 localhost"
 
 # [General]
@@ -631,7 +633,6 @@
 0.0.0.0 apcar.gr 
 0.0.0.0 app.pho8.com 
 0.0.0.0 appaloosaontario.ca 
-0.0.0.0 applebox.co.id 
 0.0.0.0 arbitrary.drclinton.org 
 0.0.0.0 argentijmts.it 
 0.0.0.0 arkinsoftware.in 
@@ -1700,7 +1701,6 @@
 0.0.0.0 vijetha.co.in 
 0.0.0.0 villalecchi.com 
 0.0.0.0 ville-st-remy-sur-avre.fr 
-0.0.0.0 vipdn123.blackapplehost.com 
 0.0.0.0 visa-advice.fr 
 0.0.0.0 vistatech.us 
 0.0.0.0 vitalityxray.com 
@@ -11273,7 +11273,6 @@
 0.0.0.0 ads.sportingnews.com 
 0.0.0.0 ads.stephensmedia.com 
 0.0.0.0 adzone.stltoday.com 
-0.0.0.0 applets.sulekha.com 
 0.0.0.0 suads.sulekha.com 
 0.0.0.0 te.suntimes.com 
 0.0.0.0 ads.swiftnews.com 
@@ -11744,7 +11743,6 @@
 0.0.0.0 apdigitalorg.112.2o7.net 
 0.0.0.0 apnonline.112.2o7.net 
 0.0.0.0 aporg.112.2o7.net 
-# 127.0.0.1  appleglobal.112.2o7.net #[affects Apple site]
 0.0.0.0 associatedcontent.112.2o7.net 
 0.0.0.0 atlanticmedia.122.2o7.net 
 0.0.0.0 audible.112.2o7.net 
@@ -12649,8 +12647,6 @@
 0.0.0.0 o.sa.aol.com 
 0.0.0.0 s.sa.aol.com 
 0.0.0.0 metrics.apartmentfinder.com 
-# 0.0.0.0 metrics.apple.com #[affects Apple site/MacOS]
-# 0.0.0.0 securemetrics.apple.com #[affects Apple site/MacOS]
 0.0.0.0 metrics.ariba.com 
 0.0.0.0 omniture.artinstitutes.edu 
 0.0.0.0 stats2.arstechnica.com 
@@ -13912,7 +13908,6 @@
 0.0.0.0 adreadytractions.com 
 0.0.0.0 www.adversalservers.com 
 0.0.0.0 clickgooroo.com 
-0.0.0.0 bigapple.contextuads.com 
 0.0.0.0 cowboy.contextuads.com 
 0.0.0.0 loadus.exelator.com 
 0.0.0.0 www.gxplugin.com 
@@ -14284,7 +14279,6 @@
 0.0.0.0 www.incentivenetworks2.com 
 # [ServePath][173.1.0.0 - 173.1.127.255]
 0.0.0.0 ggo.directrev.com 
-0.0.0.0 itunesdownloadstore.com 
 # [ServePath][AS26228][173.204.0.0 - 173.204.255.255]
 0.0.0.0 searchatomic.com 
 # [ServePath][AS26228][208.96.0.0 - 208.96.63.255]
@@ -18628,8 +18622,6 @@
 0.0.0.0 antivirus-scanner.com 
 0.0.0.0 a.oix.com 
 0.0.0.0 a.oix.net 
-0.0.0.0 apple-protection.info 
-0.0.0.0 applestore.com-mobile.gift 
 0.0.0.0 armsart.com 
 0.0.0.0 articlefuns.cn 
 0.0.0.0 articleidea.cn 
@@ -18694,7 +18686,6 @@
 0.0.0.0 feaecebook.com 
 0.0.0.0 fengyixin.com 
 0.0.0.0 filosvybfimpsv.ru.gg 
-0.0.0.0 fr.apple.com-services-assistance-recuperations-des-comptes.com 
 0.0.0.0 froling.bee.pl 
 0.0.0.0 fromru.su 
 0.0.0.0 ftdownload.com 
@@ -19454,9 +19445,6 @@
 0.0.0.0 aolwpicq.122.2o7.net 
 0.0.0.0 aolwpmq.112.2o7.net 
 0.0.0.0 aolwpmqnoban.112.2o7.net 
-#0.0.0.0 appleglobal.112.2o7.net	#breaks apple.com
-#0.0.0.0 applestoreus.112.2o7.net	#breaks apple.com
-0.0.0.0 atlassian.122.2o7.net 
 0.0.0.0 bbcnewscouk.112.2o7.net 
 0.0.0.0 bellca.112.2o7.net 
 0.0.0.0 bellglovemediapublishing.122.2o7.net 
@@ -20521,7 +20509,6 @@
 0.0.0.0 ads.apartmenttherapy.com 
 0.0.0.0 ads.apn.co.nz 
 0.0.0.0 ads.apn.co.za 
-0.0.0.0 ads.appleinsider.com 
 0.0.0.0 ads.araba.com 
 0.0.0.0 ads.arcadechain.com 
 0.0.0.0 ads.arkitera.net 
@@ -22694,7 +22681,6 @@
 0.0.0.0 iad.anm.co.uk 
 0.0.0.0 iadc.qwapi.com 
 0.0.0.0 i.admob.com 
-#0.0.0.0 iadsdk.apple.com	#may interfere with iTunes radio
 0.0.0.0 ialaddin.genieesspv.jp 
 0.0.0.0 ibis.lgappstv.com 
 0.0.0.0 icanoptout.com 
@@ -24588,7 +24574,6 @@
 0.0.0.0 www.annuaire-autosurf.com 
 0.0.0.0 www.apparelncs.com 
 0.0.0.0 www.apparel-offer.com 
-0.0.0.0 www.applelounge.com 
 0.0.0.0 www.appliedsemantics.com 
 0.0.0.0 www.appnexus.com 
 0.0.0.0 www.art-music-rewardpath.com 
@@ -29356,14 +29341,6 @@
 # Used by: iBeer, Jaadu RDP, MxTube
 127.0.0.1       www.google-analytics.com
  
-# iTunes & AppStore Application - makes 14 requests, 2 related to usage tracking
-# Used by: Apple AppStore, Apple iTunes
-127.0.0.1       metrics.apple.com
- 
-# +Plus Network - Community/social network for iPhone games, sends listing of games & information to servers
-# Used by:
-127.0.0.1       app.plusplus.com
- 
 ## Generic Mobile advertising providers
 # Used by: iFarty, psx4iphone, TwitterFon, Wobble, Dude, iAppUSA & Cydia Apps, Flash for Free, Paper Toss, Chess Free, Crack the Code, Flood-It!
 # Used by:  Would You Ever?, Finger Security Lite, BossPaper, Flick Cricket
@@ -29438,7 +29415,6 @@
 ## Individual application entries ##
  
 # Camera Zoom - pinchmedia enabled, contacts a 3rd party, phones-home, sends unique identifiable information including your geographic location
-127.0.0.1       itunes.kenditech.com
 127.0.0.1       www.kenditech.com
  
 # ColorSplash - retrieves news/alerts from home server, otherwise behaves
@@ -29490,17 +29466,12 @@
 127.0.0.1       freetheapps.com
 127.0.0.1       budurl.com
  
-# Flick Fishing - pinchmedia enabled, phones home, connects to apple, sends apple information, sends unique ids, tracks usage
-127.0.0.1       www.freeverse.com
- 
 # geoDefense Swarm - phones-home, tracks UDID, iPhone model & app info, openfeint enabled
 127.0.0.1       criticalthoughtgames.com
  
 # Hysteria Project - downloads RSS feed from server,
 127.0.0.1       www.bulkypix.com
  
-# I Am T-Pain - multiple external requests, phones-home, sends UDID, loads data from apple?
-127.0.0.1       tpain.smule.com
  
 # iBeer Updated - 2 requests, phones-home & tracks usage
 127.0.0.1       www.hottrixdownload.com
